@@ -52,7 +52,7 @@ Pokemon Red and Blue:
   area_1_to_1_mapping: 'true'
   randomize_starter_pokemon: completely_random
   randomize_static_pokemon: completely_random
-  randomize_legendary_pokemon: completely_random
+  randomize_legendary_pokemon: any
   catch_em_all: off
   randomize_pokemon_stats: vanilla
   randomize_pokemon_catch_rates: 'false'
