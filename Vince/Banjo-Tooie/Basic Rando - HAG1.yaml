@@ -149,6 +149,9 @@ Banjo-Tooie:
   signport_move_hint: 61       # 0-61; how many signpost hints will hint move items
   hint_clarity: 1             # 0 or 1; 0 means what type of item is hinted, 1 means tells you the exact item that is hinted 
 
+  extra_cheats: 'true'        # Extra cheats will be added to the "CHEATS" sub-menu: NESTKING, HONEYKING, SUPERBANJO, SUPERBADDY
+  easy_canary: 'true'         # Makes Canary Mary races much easier
+
   # The following gates are preopened: MT>TDL, MT>HFP, GGM>WW, WW>TDL
   # For MT>TDL only the gate accessed from TDL's side is opened and for GGM>WW the boulders are still unexploded
   # The bridge from HFPs entrance is pre-moved to allow secondary access to clifftop
