@@ -58,7 +58,7 @@ Banjo-Tooie:
   # 2: Long   - 1,8,16,25,34,43,52,60,70
   # 3: Custom - You pick
   # 4: Random - Let the game randomize it.
-  game_length: 1
+  game_length: 0
 
   # Enter a list of jiggy requirements you want for each world unlock. Max values of each world are: 1,10,20,30,50,60,70,80,90
   custom_worlds: "1,4,8,14,20,28,36,45,55"
@@ -75,7 +75,7 @@ Banjo-Tooie:
   # 0: Don't randomize
   # 1: Mcjiggy Special - You keep Talon Trot and Tall Jump
   # 2: All - Everything
-  randomize_bk_moves: 2
+  randomize_bk_moves: 0
 
   # Change how Eggs behave in Banjo-Tooie
   # 0: Default (Start with Blue Eggs, get other eggs randomly in AP)
@@ -86,27 +86,27 @@ Banjo-Tooie:
 
   # Beak Buster -> Bill Drill Progression
   # Requires randomize_bk_moves & randomize_moves
-  progressive_beak_buster: 'true'
+  progressive_beak_buster: 'false'
 
   # Stilt Stride -> Turbo Trainers -> Spring Boots -> Claw Climbers
   # Requires randomize_bk_moves & randomize_moves
-  progressive_shoes: 'true'
+  progressive_shoes: 'false'
 
   # 0 = disabled
   # 1 = Dive -> Double Air -> Fast Swimming
   # 2 = Dive -> Sub Aqua Aiming -> Talon Torpedo -> Double Air -> Faster Swimming
   # Requires randomize_bk_moves & randomize_moves
-  progressive_water_training: 2
+  progressive_water_training: 0
 
   # Flight Pad -> Beak Bomb -> Airborne Egg Aim
   # Requires randomize_bk_moves & randomize_moves
-  progressive_flight: 'true'
+  progressive_flight: 'false'
 
   # 0 = disabled
   # 1 = Third Person Egg Shooting -> Egg Aim
   # 2 = Third Person Egg Shooting -> Amaze-O-Gaze -> Egg Aim -> Breegull Blaster
   # Requires randomize_bk_moves & randomize_moves
-  progressive_egg_aiming: 1
+  progressive_egg_aiming: 0
 
   # Ground Rat-a-tat Rap -> Breegull Bash
   # Requires randomize_bk_moves & randomize_moves
@@ -126,7 +126,7 @@ Banjo-Tooie:
   randomize_glowbos: 'true'      # adds Mumbo / Humba Magic to the pool
   randomize_stop_n_swap: 'true'  # Ice key + Eggs + Egg rewards are added to the item pool
   randomize_dino_roar: 'false'    # Roar is in the pool
-  nestsanity: 'true'            # Every egg nest and feather nest give a check when you collect them for the first time. They behave as normal afterwards.
+  nestsanity: 'false'            # Every egg nest and feather nest give a check when you collect them for the first time. They behave as normal afterwards.
   randomize_signposts: 'false'   # Signposts as checks
 
   extra_jiggies_weight: 15       # 0 - 100; weight of extra jiggies in the filler pool. You are guarenteed enough jigges to open all levels. These are extra.
