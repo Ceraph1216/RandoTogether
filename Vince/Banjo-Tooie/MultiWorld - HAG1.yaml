@@ -96,7 +96,7 @@ Banjo-Tooie:
   # 2: Progressive Eggs (Blue -> Fire -> Grenade -> Ice -> Clockwork)
   # 3: Simple Randomize Starting Eggs (you will start with a random egg except for Clockworks)
   # Requires randomize_bk_moves & randomize_moves
-  egg_behaviour: 1
+  egg_behaviour: 0
 
   # Beak Buster -> Bill Drill Progression
   # Requires randomize_bk_moves & randomize_moves
